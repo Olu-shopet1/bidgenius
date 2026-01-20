@@ -1,12 +1,12 @@
 import React from 'react'
-import { TrendingUp } from 'lucide-react'
+import { LucideIcon } from 'lucide-react'
 
 interface StatCardProps {
   label: string
   value: string
   change?: string
   period?: string
-  icon: React.ComponentType<{ size: number }>
+  icon: LucideIcon
 }
 
 export default function StatCard({ label, value, change, period, icon: Icon }: StatCardProps) {
