@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { BarChart3, FileText, Settings, Search, AnalyticsIcon } from 'lucide-react'
+import { BarChart3, FileText, Settings, Search, BarChart } from 'lucide-react'
 import Link from 'next/link'
 
 const menuItems = [
@@ -9,7 +9,7 @@ const menuItems = [
   { icon: FileText, label: 'Generate Response', href: '/generate' },
   { icon: FileText, label: 'Case Studies', href: '/case-studies' },
   { icon: FileText, label: 'Knowledge Base', href: '/knowledge-base' },
-  { icon: AnalyticsIcon, label: 'Analytics', href: '/analytics' },
+  { icon: BarChart, label: 'Analytics', href: '/analytics' },
   { icon: Search, label: 'Search', href: '/search' },
 ]
 
